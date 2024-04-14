@@ -1,0 +1,91 @@
+﻿
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ccb;
+            color: #ccc;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        .intro {
+            margin-bottom: 50px; 
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #444;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            animation: slideIn 1s ease;
+        }
+
+        .intro h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff; 
+        }
+
+        .intro p {
+            margin-bottom: 0;
+            color: #ccc; 
+        }
+
+        .hobby {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            animation: float 3s infinite ease-in-out;
+            background-color: #555;
+        }
+
+        .hobby h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+
+        .hobby p {
+            margin-bottom: 0;
+            color: #ccc;
+        }
+
+        .hobby img {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .hobby img:hover {
+            transform: scale(1.02) rotate(-1deg);
+        }
+
+            
